@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+
+    
+.ul1{
+    margin-top:-40px;
+    padding-left: 1050px;
+    display: flex;
+    font-size: 30px;
+
+}  
+
+.ul1 li{
+   
+    padding-right: 130px;
+    list-style-type: none;
+    
+}
+
+li a{
+    
+    color:black;
+    font-family:cursive;
+    text-decoration: none;
+}
+/* 
+nav{
+    /* /* margin-top: -30px;
+    margin-left: -20px;
+    margin-right: -20px; */
+    /* height: 100px;
+    background-color: white; */
+    
+
+ 
+
+.l1 a:hover{
+
+    background-color: hsla(0, 18%, 71%, 0.342);
+    color: rgb(240, 40, 40);
+    font-size: 34px;
+    transition: 0.3s;
+ 
+    
+}
+
+.l2 a:hover{
+    background-color: hsla(0, 18%, 71%, 0.342);
+    color: rgb(240, 40, 40);
+    font-size: 34px;
+    transition: 0.3s;
+ 
+}
+
+.l3 a:hover{
+    background-color: hsla(0, 18%, 71%, 0.342);
+    color: rgb(240, 40, 40);
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.l4 a:hover{
+    background-color: hsla(0, 18%, 71%, 0.342);
+    color: rgb(240, 40, 40);
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+
+
+div{
+    background-color:rgb(255, 255, 255);
+    height: 110px;
+    
+}
+
+.hfirst{
+
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* end of nav menu */
+
+#h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(138, 0, 0);
+}
+
+#div{
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#div img{
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+#div img:hover{
+    width: 365px;
+    height: 365px;
+    box-shadow: 5px 6px 20px red;
+    transition: 0.4s;
+}
+
+#div2{
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    margin-left: 530px;
+    margin-top: -350px;
+    border-radius:30px ;
+}
+
+#div2 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+#div2 img:hover{
+    width: 365px;
+    height: 365px;
+    box-shadow: 5px 6px 20px red;
+    transition: 0.4s;
+}
+
+#div3{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    margin-left: 1000px;
+    margin-top: -350px;
+    border-radius: 30px;
+
+}
+
+#div3 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+#div3 img:hover{
+    width: 365px;
+    height: 365px;
+    box-shadow: 5px 6px 20px red;
+    transition: 0.4s;
+}
+
+#div4{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    margin-left: 1450px;
+    margin-top: -350px;
+    border-radius: 30px;
+}
+
+#div4 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+#div4 img:hover{
+    width: 365px;
+    height: 365px;
+    box-shadow: 5px 6px 20px red;
+    transition: 0.4s;
+}
