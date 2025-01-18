@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    overflow-x: hidden;
+    background-color: rgb(26, 21, 21);
+}
+
+
+header{
+    font-family: sans-serif;
+    background-color: #0f172b;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+nav{
+    font-size: 19px;
+    padding-left: 360px;
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+li{
+    padding: 15px 15px;
+    border-radius: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 100px;
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+
+
+@keyframes changeColor{
+    from{
+        color: orange;
+        
+       
+    }
+    30%{
+        color: orange;
+        transform: translate(32px, 32px);
+       
+    }
+
+    70%{
+        color: orange;
+        transform: translate(60px,-37px);
+    }
+    to{
+        color: orange;
+    }
+}
+
+section{
+    display: flex;
+}
+
+
+.rightdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+    margin-top: 150px;
+    padding-left: 100px;
+}
+
+.rightdiv h1{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.rightdiv p{
+    font-family: sans-serif;
+    color: #fff;
+}
+button{
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    background-color: orange;
+}
+
+button:hover{
+    border: 1px solid orange;
+    background-color: #fff;
+    transition: 0.3s;
+    color: orange;
+    cursor: pointer;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgdiv img{
+    margin-left:100px;
+    margin-top: 50px;
+    width: 500px;
+    animation: spinImg 15s linear infinite;
+    
+}
+
+
+
+@keyframes spinImg{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+.secondsection{
+    width: 100%;
+    margin-top: 100px;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mandiv{
+    background-color: #eceaea;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: 0.5s;
+    animation: firstdiv 10s linear ;
+}
+
+.mandiv h3{
+    font-size: 25px;
+}
+
+.mandiv p{
+    opacity: 70%;
+}
+
+i{
+    /* color: orange; */
+    font-size: 50px;
+}
+
+.mandiv:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.spoondiv{
+    background-color: #eceaea;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: 0.5s;
+    margin-left: 50px;
+    animation: firstdiv 8s linear ;
+}
+
+.spoondiv h3{
+    font-size: 25px;
+}
+
+.spoondiv p{
+    opacity: 70%;
+}
+
+.spoondiv:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.deliverydiv{
+    background-color: #eceaea;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: 0.5s;
+    margin-left: 50px;
+    animation: firstdiv 6s linear ;
+}
+
+.deliverydiv h3{
+    font-size: 25px;
+}
+.deliverydiv p{
+    opacity: 70%;
+}
+
+.deliverydiv:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.headphonediv{
+    background-color: #eceaea;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 5px;
+    font-family: cursive;
+    transition: 0.5s;
+    margin-left: 50px;
+    animation: firstdiv 4s linear ;
+}
+.headphonediv h3{
+    font-size: 25px;
+}
+
+.headphonediv p{
+    opacity: 70%;
+}
+
+.headphonediv:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+@keyframes firstdiv{
+    from{
+        margin-top: 500px;
+    }
+
+    to{
+
+        
+    }
+}
