@@ -17,6 +17,20 @@ header{
     align-items: center;
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
+    position: relative;
+    top: -300px;
+    animation: headerMove 2s forwards ease-out;
+}
+
+@keyframes headerMove{
+    0%{
+        position: relative;
+        top: -300px;
+    }
+    100%{
+        position: relative;
+        top: 0;
+    }
 }
 
 nav{

@@ -31,7 +31,6 @@ body{
     transform: translateY(-50%);
     top: 50px;
     left:15px;
-    pointer-events: none;
     color:rgb(255, 255, 255);
     padding: 0 5px;
     transition: 0.5s;
@@ -46,8 +45,11 @@ body{
     background: transparent;
     border-radius:5px;
 }
-
 .container input:focus~label,
+
+
+
+
 .container input:valid~label{
     top:-1px;
     left: 15px;
